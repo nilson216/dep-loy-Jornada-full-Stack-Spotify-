@@ -3,5 +3,25 @@
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "express": "^4.21.2"
-  }
+  },
+  "name": "spotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilson216/dep-loy-Jornada-full-Stack-Spotify-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilson216/dep-loy-Jornada-full-Stack-Spotify-/issues"
+  },
+  "homepage": "https://github.com/nilson216/dep-loy-Jornada-full-Stack-Spotify-#readme",
+  "description": ""
 }
